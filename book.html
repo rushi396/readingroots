@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/12f34b22b8.js" crossorigin="anonymous"></script>
+    <title>Browse Books</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="leftnav">
+            <a href="#"><img src="./assets/images/logo.jpg" alt=""></a>
+            <a href="#">Readingroots</a>
+        </div>
+        <div class="rightnav">
+            <ul class="rightnavgroup sidebar-close">
+                <li class="rightnavlinks item-1"><a href="#">Home</a></li>
+                <li class="rightnavlinks item-2"><a href="#">About us</a></li>
+                <li class="rightnavlinks item-3"><a href="#">Add books</a></li>
+                <li class="rightnavlinks item-4"><a href="#">All books</a></li>
+                <li class="rightnavlinks item-5"><a href="#"><i class="fas fa-mail-bulk"></i></a></li>
+                <li class="rightnavlinks item-3"><a href="#"><i class="fas fa-bell"></i></a></li>
+                <li class="rightnavlinks item-4"><a href="#"><i class="fas fa-user"></i></a></li>
+                <li class="rightnavlinks item-6">user</li>
+            </ul>
+        </div>
+        <div class="nav-toggle">
+            <i class="open-button fas fa-bars"></i>
+            <i class="close-button fas fa-times"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="#" method="get">
+            <div class="search">
+                <div class="item-1">Keyword Search</div>
+                <div class="item-2">Book Genre</div>
+                <div class="item-3">
+                    
+                    <button type="submit"><i class="fa fa-search"></i>
+                        <input type="text" placeholder="Search.." name="search">
+                    </button>
+
+                </div>
+                <div class="item-4">
+                    <select name="genre" id="genre">
+                        <option value="ABCD">ABCD</option>
+                        <option value="ABCD">ABCD</option>
+                        <option value="ABCD">ABCD</option>
+                        <option value="ABCD">ABCD</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="user">USER RELATED SELECTION</div>
+
+            <div class="bookinfo">
+                <div class="item-1">Year</div>
+                <div class="item-2">Branch</div>
+                <div class="item-3"></div>
+                <div class="item-4">
+                    <select name="year" id="year">
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </div>
+                <div class="item-5">
+                    <select name="branch" id="branch">
+                        <option value="ABCD">ABCD</option>
+                        <option value="ABCD">ABCD</option>
+                        <option value="ABCD">ABCD</option>
+                        <option value="ABCD">ABCD</option>
+                    </select>
+                </div>
+                <div class="item-6">
+                    <input type="checkbox" id="available" name="available">
+                    Available only
+                </div>
+            </div>
+            <div class="more">
+                <div class="filter"><button>
+                    Filter
+                </button></div>
+                <div class="sort">
+                    <button>
+                        Sort
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div class="booksection">
+            <div class="total">Total books: <strong style="color: red;">4</strong></div>
+            <div class="books">
+                <div class="item-1">
+                    <div class="image"><img src="./assets/images/1.jpg" alt=""></div>
+                    <div class="desc">
+                        <div class="auth">Written by: xyz <br>
+                            owner: abc
+                        </div>
+                        <div class="gofor">
+                            <div class="req">
+                                <button>
+                                    Request Book
+                                </button>
+                            </div>
+                            <div class="view"><button><i class="fas fa-arrow-right"></i></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-2">
+                    <div class="image"><img src="./assets/images/2.jpg" alt=""></div>
+                    <div class="desc">
+                        <div class="auth">Written by: xyz <br>
+                            owner: abc
+                        </div>
+                        <div class="gofor">
+                            <div class="req">
+                                <button>
+                                    Request Book
+                                </button>
+                            </div>
+                            <div class="view"><button><i class="fas fa-arrow-right"></i></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-3">
+                    <div class="image"><img src="./assets/images/3.jpg" alt=""></div>
+                    <div class="desc">
+                        <div class="auth">Written by: xyz <br>
+                            owner: abc
+                        </div>
+                        <div class="gofor">
+                            <div class="req">
+                                <button>
+                                    Request Book
+                                </button>
+                            </div>
+                            <div class="view"><button><i class="fas fa-arrow-right"></i></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-4">
+                    <div class="image"><img src="./assets/images/4.jpg" alt=""></div>
+                    <div class="desc">
+                        <div class="auth">Written by: xyz <br>
+                            owner: abc
+                        </div>
+                        <div class="gofor">
+                            <div class="req">
+                                <button>
+                                    Request Book
+                                </button>
+                            </div>
+                            <div class="view"><button><i class="fas fa-arrow-right"></i></button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prevnext">
+            <div class="prev">
+                <button>Prev</button>
+            </div>
+            <div class="pageof">
+                <p>1 of 10</p>
+            </div>
+            <div class="next">
+                <button>Next</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="sec-1">
+            <div class="links">Social Links</div>
+            <div class="item-1">
+                <div class="link-1"><a href="#"><i class="fab fa-instagram"></i></a> </div>
+                <div class="link-1"><a href="#"><i class="fab fa-facebook"></i></a> </div>
+                <div class="link-1"><a href="#"><i class="fab fa-twitter"></i></a> </div>
+                <div class="link-1"><a href="#"><i class="fab fa-reddit"></i></a> </div>
+            </div>
+        </div>
+        <div class="sec-2">
+            <div class="links">Contact us at</div>
+            <div class="item-1">
+                <a href="#"> <i class="fas fa-envelope"></i></a></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
