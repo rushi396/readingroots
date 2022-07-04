@@ -289,7 +289,7 @@ form{
     align-items: center;
 }
     .sidebar-close{
-        transform: translate(35vw,0vw);
+        transform: translate(30vw,0vw);
         position: static;
     }
     .rightnavgroup {
@@ -302,7 +302,7 @@ form{
         right: 0;
         background-color: #66fcde;
         z-index: 30;
-        height: -webkit-fill-available;
+        height: 92vh;
         transition: transform 0.3s ease-in;
     }
     .rightnavgroup li{
@@ -318,7 +318,7 @@ form{
     .rightnavgroup li:after{
         display: inline;
         list-style: none;
-        width: 35vw;
+        width: 30vw;
         padding: 5px;
         margin: 0px 10px 0px 10px;
         border-radius: 7px;
@@ -502,7 +502,7 @@ form{
         right: 0;
         background-color: #66fcde;
         z-index: 30;
-        height: -webkit-fill-available;
+        height: 94vh;
         transition: transform 0.3s ease-in;
     }
     .rightnavgroup li{
