@@ -39,17 +39,11 @@ body::-webkit-scrollbar{
 }
 
 .leftnav img{
-    width: 30px;
+    width: 250px;
     height: 30px;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-right: 5px;
-}
-.leftnav {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
 }
 
 .rightnavlinks{
@@ -275,19 +269,14 @@ form{
     background-color: #735ad2;
 }
 .leftnav img{
-    width: 30px;
+    width: 100px;
     height: 30px;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 0px;
     margin-left: 10px;
     margin-right: 5px;
 }
-.leftnav {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-}
+
     .sidebar-close{
         transform: translate(30vw,0vw);
         position: static;
@@ -475,10 +464,10 @@ form{
     background-color: #735ad2;
 }
 .leftnav img{
-    width: 30px;
+    width: 150px;
     height: 30px;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-right: 5px;
 }
 .leftnav {
